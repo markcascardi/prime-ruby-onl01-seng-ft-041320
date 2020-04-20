@@ -6,3 +6,4 @@ def is_prime?(number)
     new_number.none? { |n| number % n == 0 }
   end
 end
+
