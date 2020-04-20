@@ -1,6 +1,7 @@
 require 'pry'
 
 def is_prime?(number)
+  binding.pry
   if number <= 1
     false
   else
