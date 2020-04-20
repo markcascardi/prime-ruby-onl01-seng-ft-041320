@@ -1,6 +1,6 @@
 require 'pry'
 
-def is_prime?(number)
+def prime?(number)
   if number <= 1
     false
   else
@@ -9,4 +9,4 @@ def is_prime?(number)
   end
 end
 
-is_prime?(11)
+
